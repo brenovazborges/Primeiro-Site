@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/bg.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+#titulo{
+color: white;
+font-size: 25px;
+}
+
+#menu{
+    border: 2px solid black;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(46, 35, 204);
+    position: sticky;
+}
+
+li a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke: 1.3px;
+    -webkit-text-stroke-color: black;
+}
+
+li{
+    list-style-type: circle;
+    padding: 15px;
+    display: inline;
+}
+
+p{
+    color: white;
+    font-family: Arial;
+    font-size: 20;
+}
+
+li a:hover{
+    background-color: rgb(13, 108, 231);
+    text-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+
+}
+
