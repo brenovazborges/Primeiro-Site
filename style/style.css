@@ -16,7 +16,7 @@ font-size: 25px;
     border: solid 2px lightblue;
     border-radius: 5px;
     background-color: rgb(125, 15, 228);
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
 }
 
@@ -50,10 +50,11 @@ p{
     color: white;
     font-family: Arial;
     font-size: 20;
+    
 }
 
 li a:hover{
-    background-color: rgb(13, 108, 231);
+    background-image: linear-gradient( rgb(75, 4, 146), rgb(199, 12, 199));
     text-shadow: 1px 1px 3px black;
     border-radius: 10px;
     text-transform: uppercase;
@@ -89,4 +90,38 @@ li a:hover{
     height: 100px;
     padding: 10px;
     background-image: linear-gradient(yellow, red, orange);
+}
+
+
+.sobremim{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.imgpfp{
+    border: solid 3px lightblue;
+    border-radius: 9px;
+    box-shadow: 3px 3px 5px   rgb(138, 20, 255);
+    width: 20%;
+    margin: 20px;
+    
+}
+
+#txtimg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.lista{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    background-image: linear-gradient( rgb(98, 0, 255), rgb(102, 102, 145));
+    border: dashed lightblue;
+    border-radius: 5px;
+    
+
 }
